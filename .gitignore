@@ -1,0 +1,25 @@
+# Ignore AWS EC2-related files
+*.pem  # Private key files (SSH keys)
+*.log  # Log files
+*.bak  # Backup files
+
+# Ignore MacOS files
+.DS_Store
+
+# Ignore Windows files
+Thumbs.db
+
+# Ignore IDE files (e.g., VS Code, IntelliJ)
+.vscode/
+.idea/
+
+# Ignore shell script history and temporary files
+*.swp
+*.tmp
+.history
+
+# Ignore AWS credentials file
+.aws/
+
+# Ignore the build output (if applicable)
+*.out
