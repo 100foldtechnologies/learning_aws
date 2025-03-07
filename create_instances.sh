@@ -6,6 +6,7 @@ INSTANCE_TYPE="t2.micro"        # Replace with your desired instance type
 KEY_NAME="devops"        # Replace with your key pair name
 SECURITY_GROUP="sg-008d83511cf3e15b0"     # Replace with your security group ID
 REGION="ca-central-1"              # Replace with your desired region
+TAG_NAME="EC2Assignment"        #Tag for the EC2 instance
 COUNT=3                         # Number of instances to create
 
 # Function to create an instance
